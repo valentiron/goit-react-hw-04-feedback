@@ -43,10 +43,6 @@ export default function App() {
     return Number.parseInt(positiveFeedbackPercent);
   }
 
-  useEffect(() => {
-    countTotalFeedback();
-  });
-
   return (
     <>
       <Section title="Please leave feedback">
